@@ -4,12 +4,12 @@ import profilePicture from '../constants/images/profile.png'
 export default function Home() {
   return (
     <div> 
-      <div className="containerBorder px-[15%] py-[10%] flex flex-row  justify-content-center items-center">
+      <div className="containerBorder px-[10%] py-[5%] flex flex-row  justify-content-center items-center">
       <Image src={profilePicture}
        alt="Picture of me"
         width={150} height={150}
         className="rounded-full" />
-        <div className="ml-16">
+        <div className="ml-[5%]">
           <h1 className="text-4xl "> Kenneth Sullivan </h1>
           <h1 className="mt-3 text-gray-400">Computer Science, BA</h1>
           <h1 className="mt-3 text-gray-400">University of Rhode Island</h1>
