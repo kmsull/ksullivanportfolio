@@ -4,7 +4,7 @@ import profilePicture from '../constants/images/profile.png'
 export default function Home() {
   return (
     <div> 
-      <div className="containerBorder px-40 py-20 flex flex-row  justify-content-center items-center">
+      <div className="containerBorder px-[15%] py-[10%] flex flex-row  justify-content-center items-center">
       <Image src={profilePicture}
        alt="Picture of me"
         width={150} height={150}
