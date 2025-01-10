@@ -1,12 +1,23 @@
 import Image from "next/image";
+import profilePicture from '../constants/images/profile.png'
 
 export default function Home() {
   return (
-    <div className="containerBorder"> 
-      <h1>Home</h1>
-      <p>Welcome to my portfolio! I am a software engineer with a passion for front-end development. I have experience with React, Next.js, and TypeScript. 
-        I am excited to continue to learn and grow as a developer. </p>
-      <Image href="../constants/images/profile.png" alt="Picture of me" width={300} height={300} />
+    <div> 
+      <div className="containerBorder px-40 py-20 flex flex-row  justify-content-center items-center">
+      <Image src={profilePicture}
+       alt="Picture of me"
+        width={150} height={150}
+        className="rounded-full" />
+        <div className="ml-16">
+          <h1 className="text-4xl "> Kenneth Sullivan </h1>
+          <h1 className="mt-3 text-gray-400">Computer Science, BA</h1>
+          <h1 className="mt-3 text-gray-400">University of Rhode Island</h1>
+        </div>
+      </div>
+        <div className="containerBorder px-40 py-20 flex flex-row  justify-content-center items-center">
+          
+        </div>
     </div>
   );
 }
