@@ -1,7 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const InfoCard = ({title,  content}) => {
+interface InfoProps {
+  title?: string;
+  content?: string;
+}
+
+const InfoCard: React.FC<InfoProps> =({title, content}) => {
   return (
     <StyledWrapper>
       <div className="card">
