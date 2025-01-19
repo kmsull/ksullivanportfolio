@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import profilePicture from "../images/profile.png";
 import Image from "next/image";
 
@@ -33,31 +32,3 @@ export default function MyInfoCard() {
     </div>
   );
 }
-
-const StyledWrapper = styled.div`
-  .na {
-    width: 100%;
-    height: 100%;
-    border-color: rgb(68, 68, 68);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    padding: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(68, 68, 68);
-    color: white;
-  }
-  .CardMedia {
-    margin-bottom: 4%;
-  }
-  .CardHeader {
-    margin-bottom: 4%;
-    font-size: 2em;
-  }
-  .CardContent {
-    text-align: center;
-  }
-`;
