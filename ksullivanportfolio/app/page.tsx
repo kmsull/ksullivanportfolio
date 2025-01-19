@@ -1,12 +1,10 @@
 "use client";
 import HeaderInfo from "@/constants/HeaderInfo/HeaderInfo";
-import profilePicture from "../constants/images/profile.png";
-import Image from "next/image";
 import MyInfoCard from "../constants/MyInfoCard/MyInfoCard";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <HeaderInfo />
       <div className="flex flex-row">
         <div className="w-[10%]"></div>
