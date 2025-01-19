@@ -7,11 +7,11 @@ export default function Home() {
     <div className=" h-screen">
       <HeaderInfo />
       <div className=" flex flex-row">
-        <div className="w-[10%]"></div>
-        <div className="containerBorder flex flex-row justify-center">
+        <div className="w-[15%] border-2 border-red-100"></div>
+        <div className="border-2 border-red-100 h-screen flex flex-col justify-center">
           <MyInfoCard />
         </div>
-        <div className="w-[10%]"></div>
+        <div className="w-[15%] border-2 border-red-100"></div>
       </div>
     </div>
   );
