@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import InstagramButton from "../SocialButton/InstagramButton";
 import LinkedInButton from "../SocialButton/LinkedInButton";
 import GithubButton from "../SocialButton/GithubButton";
@@ -6,15 +7,26 @@ import ResumeLink from "../SocialButton/ResumeLink";
 
 export default function HeaderInfo() {
   return (
-    <div>
-      <div className="containerBorder py-[2%] flex flex-row space-x-[70%] justify-center">
-        <ResumeLink />
-        <div className="flex flex-row space-x-[10%]">
-          <InstagramButton />
-          <LinkedInButton />
-          <GithubButton />
+    <StyledWrapper>
+      <div className="header">
+        <div className="flex flex-row">
+          <ResumeLink />
+          <div className="flex flex-row">
+            <InstagramButton />
+            <LinkedInButton />
+            <GithubButton />
+          </div>
         </div>
       </div>
-    </div>
+    </StyledWrapper>
   );
 }
+
+const StyledWrapper = styled.div`
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: transparent;
+  }
+`;

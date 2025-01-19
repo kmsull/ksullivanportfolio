@@ -4,11 +4,11 @@ import MyInfoCard from "../constants/MyInfoCard/MyInfoCard";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <HeaderInfo />
-      <div className="flex flex-row">
+      <div className=" flex flex-row">
         <div className="w-[10%]"></div>
-        <div className="containerBorder py-[5%] w-[80%] flex flex-row space-x-[20%] justify-center">
+        <div className="containerBorder flex flex-row justify-center">
           <MyInfoCard />
         </div>
         <div className="w-[10%]"></div>
