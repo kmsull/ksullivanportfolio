@@ -3,7 +3,7 @@ import styled from "styled-components";
 import profilePicture from "../images/profile.png";
 import Image from "next/image";
 
-export default function NewMyInfoCard() {
+export default function MyInfoCard() {
   return (
     <StyledWrapper>
       <div className="MainCard">

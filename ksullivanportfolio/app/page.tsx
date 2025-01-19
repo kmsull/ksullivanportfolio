@@ -4,7 +4,7 @@ import MyInfoCard from "../constants/MyInfoCard/MyInfoCard";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" h-screen">
       <HeaderInfo />
       <div className=" flex flex-row">
         <div className="w-[10%]"></div>
