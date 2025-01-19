@@ -5,6 +5,9 @@
   .containerBorder {
     @apply border rounded-2xl border-red-500;
   }
+  .MainCard {
+    @apply bg-blue-500 rounded-2xl shadow-lg;
+  }
 }
 
 body {
