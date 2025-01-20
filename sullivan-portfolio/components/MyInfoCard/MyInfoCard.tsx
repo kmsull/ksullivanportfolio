@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function MyInfoCard() {
   return (
-    <div className="w-[50%] h-[50%] bg-gray-800 rounded-lg flex flex-col justify-center items-center text-white border-4 border-gray-400 m-[1%]">
+    <div className="w-[50%] h-[50%] dark:bg-gray-800 rounded-2xl flex flex-col justify-center items-center text-white border-4 border-gray-400">
       <div className=" flex justify-center items-center">
         <Image
           src={profilePicture}
