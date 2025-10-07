@@ -2,9 +2,39 @@ import React from "react";
 import styled from "styled-components";
 import { useTheme } from "next-themes";
 
+/**
+ * BB8Switch Component
+ * 
+ * A creative Star Wars BB-8 themed toggle switch for dark/light mode.
+ * Features an animated BB-8 droid that moves across a scenery when toggled.
+ * 
+ * The component uses:
+ * - next-themes for theme management
+ * - styled-components for complex animations and styling
+ * - CSS transitions and transforms for smooth animations
+ * 
+ * Visual elements include:
+ * - Animated BB-8 droid character
+ * - Day/night scenery transition
+ * - Stars that appear in night mode
+ * - Clouds for day mode
+ * - Desert landscape elements (Tatooine moons)
+ * 
+ * @component
+ * @returns {JSX.Element} An interactive theme toggle switch styled as BB-8
+ * 
+ * @example
+ * ```tsx
+ * <BB8Switch />
+ * ```
+ */
 const Switch = () => {
   const { theme, setTheme } = useTheme();
 
+  /**
+   * Toggles between dark and light themes
+   * @function
+   */
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };

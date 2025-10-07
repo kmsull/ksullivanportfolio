@@ -1,6 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 
+/**
+ * InstagramButton Component
+ * 
+ * A styled button that links to the Instagram profile.
+ * Features an Instagram logo icon with hover animations.
+ * 
+ * @component
+ * @returns {JSX.Element} A clickable Instagram button with icon
+ * 
+ * @example
+ * ```tsx
+ * <InstagramButton />
+ * ```
+ */
 const Button = () => {
   return (
     <StyledWrapper>

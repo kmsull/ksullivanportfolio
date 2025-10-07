@@ -1,6 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 
+/**
+ * GithubButton Component
+ * 
+ * A styled button that links to the GitHub profile.
+ * Features a GitHub logo icon with hover animations.
+ * 
+ * @component
+ * @returns {JSX.Element} A clickable GitHub button with icon
+ * 
+ * @example
+ * ```tsx
+ * <GithubButton />
+ * ```
+ */
 const Button = () => {
   return (
     <StyledWrapper>

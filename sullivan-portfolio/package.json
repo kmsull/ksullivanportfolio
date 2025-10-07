@@ -2,6 +2,27 @@
   "name": "sullivan-portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "Kenneth Sullivan's personal portfolio website showcasing skills, interests, and projects built with Next.js, TypeScript, and Tailwind CSS",
+  "author": {
+    "name": "Kenneth Sullivan",
+    "url": "https://github.com/kmsull"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmsull/ksullivanportfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "typescript",
+    "react",
+    "tailwindcss",
+    "styled-components",
+    "personal-website",
+    "dark-mode",
+    "responsive-design"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

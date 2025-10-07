@@ -2,6 +2,27 @@ import React from "react";
 import profilePicture from "../images/profile.png";
 import Image from "next/image";
 
+/**
+ * MyInfoCard Component
+ * 
+ * Displays the main personal information card with profile picture and bio.
+ * This is the central component showcasing Kenneth Sullivan's professional introduction.
+ * 
+ * Features:
+ * - Profile picture with custom styling
+ * - Name display
+ * - Professional bio and summary
+ * - Responsive design
+ * - Dark mode compatible
+ * 
+ * @component
+ * @returns {JSX.Element} A card component with personal information and profile image
+ * 
+ * @example
+ * ```tsx
+ * <MyInfoCard />
+ * ```
+ */
 export default function MyInfoCard() {
   return (
     <div className="w-[50%] h-[50%] dark:bg-gray-800 rounded-2xl flex flex-col justify-center items-center text-white border-4 border-gray-400">

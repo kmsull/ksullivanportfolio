@@ -1,6 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 
+/**
+ * ResumeLink Component
+ * 
+ * A styled button that links to the resume document hosted on Google Docs.
+ * Features a hover animation effect that reveals alternate text.
+ * 
+ * @component
+ * @returns {JSX.Element} A clickable resume link button with hover effect
+ * 
+ * @example
+ * ```tsx
+ * <ResumeLink />
+ * ```
+ */
 const Button = () => {
   return (
     <StyledWrapper>

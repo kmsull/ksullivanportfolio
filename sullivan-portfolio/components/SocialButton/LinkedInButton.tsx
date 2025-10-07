@@ -1,6 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 
+/**
+ * LinkedInButton Component
+ * 
+ * A styled button that links to the LinkedIn profile.
+ * Features a LinkedIn logo icon with hover animations.
+ * 
+ * @component
+ * @returns {JSX.Element} A clickable LinkedIn button with icon
+ * 
+ * @example
+ * ```tsx
+ * <LinkedInButton />
+ * ```
+ */
 const Button = () => {
   return (
     <StyledWrapper>
