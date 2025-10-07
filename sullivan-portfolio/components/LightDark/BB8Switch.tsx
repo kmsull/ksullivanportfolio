@@ -143,7 +143,8 @@ const StyledWrapper = styled.div`
     margin-bottom: -0.188em;
     width: 2.5em;
     height: 1.688em;
-    background: -o-linear-gradient(
+    background:
+      -o-linear-gradient(
         transparent 0.063em,
         dimgray 0.063em 0.313em,
         transparent 0.313em 0.375em,
@@ -152,12 +153,21 @@ const StyledWrapper = styled.div`
         silver 1.313em 1.438em,
         transparent 1.438em
       ),
-      -o-linear-gradient(45deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
-      -o-linear-gradient(135deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
+      -o-linear-gradient(
+          45deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
+      -o-linear-gradient(
+          135deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
       -o-linear-gradient(var(--bb8-bg) 1.25em, transparent 1.25em);
-    background: -o-linear-gradient(
+    background:
+      -o-linear-gradient(
         transparent 0.063em,
         dimgray 0.063em 0.313em,
         transparent 0.313em 0.375em,
@@ -166,12 +176,21 @@ const StyledWrapper = styled.div`
         silver 1.313em 1.438em,
         transparent 1.438em
       ),
-      -o-linear-gradient(45deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
-      -o-linear-gradient(135deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
+      -o-linear-gradient(
+          45deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
+      -o-linear-gradient(
+          135deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
       -o-linear-gradient(var(--bb8-bg) 1.25em, transparent 1.25em);
-    background: -o-linear-gradient(
+    background:
+      -o-linear-gradient(
         transparent 0.063em,
         dimgray 0.063em 0.313em,
         transparent 0.313em 0.375em,
@@ -180,12 +199,21 @@ const StyledWrapper = styled.div`
         silver 1.313em 1.438em,
         transparent 1.438em
       ),
-      -o-linear-gradient(45deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
-      -o-linear-gradient(135deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
+      -o-linear-gradient(
+          45deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
+      -o-linear-gradient(
+          135deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
       -o-linear-gradient(var(--bb8-bg) 1.25em, transparent 1.25em);
-    background: -o-linear-gradient(
+    background:
+      -o-linear-gradient(
         transparent 0.063em,
         dimgray 0.063em 0.313em,
         transparent 0.313em 0.375em,
@@ -194,12 +222,21 @@ const StyledWrapper = styled.div`
         silver 1.313em 1.438em,
         transparent 1.438em
       ),
-      -o-linear-gradient(45deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
-      -o-linear-gradient(135deg, transparent 0.188em, var(--bb8-bg) 0.188em
-            1.25em, transparent 1.25em),
+      -o-linear-gradient(
+          45deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
+      -o-linear-gradient(
+          135deg,
+          transparent 0.188em,
+          var(--bb8-bg) 0.188em 1.25em,
+          transparent 1.25em
+        ),
       -o-linear-gradient(var(--bb8-bg) 1.25em, transparent 1.25em);
-    background: linear-gradient(
+    background:
+      linear-gradient(
         transparent 0.063em,
         dimgray 0.063em 0.313em,
         transparent 0.313em 0.375em,
@@ -233,51 +270,64 @@ const StyledWrapper = styled.div`
     position: absolute;
     width: 0.563em;
     height: 0.563em;
-    background: -o-radial-gradient(
-        0.25em 0.375em,
-        0.125em circle,
-        red,
-        transparent
-      ),
-      -o-radial-gradient(0.375em 0.188em, 0.063em circle, var(--bb8-bg) 50%, transparent
-            100%),
-      -o-linear-gradient(45deg, #000 0.188em, dimgray 0.313em 0.375em, #000
-            0.5em);
-    background: -o-radial-gradient(
-        0.25em 0.375em,
-        0.125em circle,
-        red,
-        transparent
-      ),
-      -o-radial-gradient(0.375em 0.188em, 0.063em circle, var(--bb8-bg) 50%, transparent
-            100%),
-      -o-linear-gradient(45deg, #000 0.188em, dimgray 0.313em 0.375em, #000
-            0.5em);
-    background: -o-radial-gradient(
-        0.25em 0.375em,
-        0.125em circle,
-        red,
-        transparent
-      ),
-      -o-radial-gradient(0.375em 0.188em, 0.063em circle, var(--bb8-bg) 50%, transparent
-            100%),
-      -o-linear-gradient(45deg, #000 0.188em, dimgray 0.313em 0.375em, #000
-            0.5em);
-    background: -o-radial-gradient(
-        0.25em 0.375em,
-        0.125em circle,
-        red,
-        transparent
-      ),
-      -o-radial-gradient(0.375em 0.188em, 0.063em circle, var(--bb8-bg) 50%, transparent
-            100%),
-      -o-linear-gradient(45deg, #000 0.188em, dimgray 0.313em 0.375em, #000
-            0.5em);
-    background: radial-gradient(
-        0.125em circle at 0.25em 0.375em,
-        red,
-        transparent
-      ),
+    background:
+      -o-radial-gradient(0.25em 0.375em, 0.125em circle, red, transparent),
+      -o-radial-gradient(
+          0.375em 0.188em,
+          0.063em circle,
+          var(--bb8-bg) 50%,
+          transparent 100%
+        ),
+      -o-linear-gradient(
+          45deg,
+          #000 0.188em,
+          dimgray 0.313em 0.375em,
+          #000 0.5em
+        );
+    background:
+      -o-radial-gradient(0.25em 0.375em, 0.125em circle, red, transparent),
+      -o-radial-gradient(
+          0.375em 0.188em,
+          0.063em circle,
+          var(--bb8-bg) 50%,
+          transparent 100%
+        ),
+      -o-linear-gradient(
+          45deg,
+          #000 0.188em,
+          dimgray 0.313em 0.375em,
+          #000 0.5em
+        );
+    background:
+      -o-radial-gradient(0.25em 0.375em, 0.125em circle, red, transparent),
+      -o-radial-gradient(
+          0.375em 0.188em,
+          0.063em circle,
+          var(--bb8-bg) 50%,
+          transparent 100%
+        ),
+      -o-linear-gradient(
+          45deg,
+          #000 0.188em,
+          dimgray 0.313em 0.375em,
+          #000 0.5em
+        );
+    background:
+      -o-radial-gradient(0.25em 0.375em, 0.125em circle, red, transparent),
+      -o-radial-gradient(
+          0.375em 0.188em,
+          0.063em circle,
+          var(--bb8-bg) 50%,
+          transparent 100%
+        ),
+      -o-linear-gradient(
+          45deg,
+          #000 0.188em,
+          dimgray 0.313em 0.375em,
+          #000 0.5em
+        );
+    background:
+      radial-gradient(0.125em circle at 0.25em 0.375em, red, transparent),
       radial-gradient(
         0.063em circle at 0.375em 0.188em,
         var(--bb8-bg) 50%,
@@ -290,10 +340,16 @@ const StyledWrapper = styled.div`
     -webkit-transform: translate(-50%);
     -ms-transform: translate(-50%);
     transform: translate(-50%);
-    -webkit-box-shadow: 0 0 0 0.089em lightgray, 0.563em 0.281em 0 -0.148em,
-      0.563em 0.281em 0 -0.1em var(--bb8-bg), 0.563em 0.281em 0 -0.063em;
-    box-shadow: 0 0 0 0.089em lightgray, 0.563em 0.281em 0 -0.148em,
-      0.563em 0.281em 0 -0.1em var(--bb8-bg), 0.563em 0.281em 0 -0.063em;
+    -webkit-box-shadow:
+      0 0 0 0.089em lightgray,
+      0.563em 0.281em 0 -0.148em,
+      0.563em 0.281em 0 -0.1em var(--bb8-bg),
+      0.563em 0.281em 0 -0.063em;
+    box-shadow:
+      0 0 0 0.089em lightgray,
+      0.563em 0.281em 0 -0.148em,
+      0.563em 0.281em 0 -0.1em var(--bb8-bg),
+      0.563em 0.281em 0 -0.063em;
     z-index: 1;
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
@@ -417,7 +473,8 @@ const StyledWrapper = styled.div`
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background: -webkit-gradient(
+    background:
+      -webkit-gradient(
         linear,
         right top,
         left top,
@@ -427,10 +484,34 @@ const StyledWrapper = styled.div`
         color-stop(90%, var(--accent)),
         color-stop(96%, var(--bb8-bg))
       ),
-      -webkit-gradient(linear, left top, left bottom, color-stop(4%, var(--bb8-bg)), color-stop(4%, var(--accent)), color-stop(10%, transparent), color-stop(90%, var(--accent)), color-stop(96%, var(--bb8-bg))),
-      -webkit-gradient(linear, left top, right top, color-stop(2.156em, transparent), color-stop(2.156em, silver), color-stop(2.188em, transparent)),
-      -webkit-gradient(linear, left top, left bottom, color-stop(2.156em, transparent), color-stop(2.156em, silver), color-stop(2.188em, transparent));
-    background: -o-linear-gradient(
+      -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(4%, var(--bb8-bg)),
+          color-stop(4%, var(--accent)),
+          color-stop(10%, transparent),
+          color-stop(90%, var(--accent)),
+          color-stop(96%, var(--bb8-bg))
+        ),
+      -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          color-stop(2.156em, transparent),
+          color-stop(2.156em, silver),
+          color-stop(2.188em, transparent)
+        ),
+      -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(2.156em, transparent),
+          color-stop(2.156em, silver),
+          color-stop(2.188em, transparent)
+        );
+    background:
+      -o-linear-gradient(
         right,
         var(--bb8-bg) 4%,
         var(--accent) 4% 10%,
@@ -438,13 +519,26 @@ const StyledWrapper = styled.div`
         var(--accent) 90% 96%,
         var(--bb8-bg) 96%
       ),
-      -o-linear-gradient(var(--bb8-bg) 4%, var(--accent) 4% 10%, transparent 10%
-            90%, var(--accent) 90% 96%, var(--bb8-bg) 96%),
-      -o-linear-gradient(left, transparent 2.156em, silver 2.156em 2.219em, transparent
-            2.188em),
-      -o-linear-gradient(transparent 2.156em, silver 2.156em 2.219em, transparent
-            2.188em);
-    background: linear-gradient(
+      -o-linear-gradient(
+          var(--bb8-bg) 4%,
+          var(--accent) 4% 10%,
+          transparent 10% 90%,
+          var(--accent) 90% 96%,
+          var(--bb8-bg) 96%
+        ),
+      -o-linear-gradient(
+          left,
+          transparent 2.156em,
+          silver 2.156em 2.219em,
+          transparent 2.188em
+        ),
+      -o-linear-gradient(
+          transparent 2.156em,
+          silver 2.156em 2.219em,
+          transparent 2.188em
+        );
+    background:
+      linear-gradient(
         -90deg,
         var(--bb8-bg) 4%,
         var(--accent) 4% 10%,
@@ -483,10 +577,22 @@ const StyledWrapper = styled.div`
     background: rgb(236, 236, 236);
     color: rgb(236, 236, 236);
     border-radius: 50%;
-    -webkit-box-shadow: 0.875em 0.938em, 0 -1.25em, 0.875em -2.125em,
-      2.125em -2.125em, 3.063em -1.25em, 3.063em 0, 2.125em 0.938em;
-    box-shadow: 0.875em 0.938em, 0 -1.25em, 0.875em -2.125em, 2.125em -2.125em,
-      3.063em -1.25em, 3.063em 0, 2.125em 0.938em;
+    -webkit-box-shadow:
+      0.875em 0.938em,
+      0 -1.25em,
+      0.875em -2.125em,
+      2.125em -2.125em,
+      3.063em -1.25em,
+      3.063em 0,
+      2.125em 0.938em;
+    box-shadow:
+      0.875em 0.938em,
+      0 -1.25em,
+      0.875em -2.125em,
+      2.125em -2.125em,
+      3.063em -1.25em,
+      3.063em 0,
+      2.125em 0.938em;
   }
 
   .bb8__body::before {
@@ -503,31 +609,56 @@ const StyledWrapper = styled.div`
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border: 0.313em solid var(--accent);
-    background: -o-radial-gradient(
+    background:
+      -o-radial-gradient(
         center,
         1em circle,
         rgb(236, 236, 236) 50%,
         transparent 51%
       ),
-      -o-radial-gradient(center, 1.25em circle, var(--bb8-bg) 50%, transparent
-            51%),
-      -o-linear-gradient(right, transparent 42%, var(--accent) 42% 58%, transparent
-            58%),
-      -o-linear-gradient(var(--bb8-bg) 42%, var(--accent) 42% 58%, var(--bb8-bg)
-            58%);
-    background: -o-radial-gradient(
+      -o-radial-gradient(
+          center,
+          1.25em circle,
+          var(--bb8-bg) 50%,
+          transparent 51%
+        ),
+      -o-linear-gradient(
+          right,
+          transparent 42%,
+          var(--accent) 42% 58%,
+          transparent 58%
+        ),
+      -o-linear-gradient(
+          var(--bb8-bg) 42%,
+          var(--accent) 42% 58%,
+          var(--bb8-bg) 58%
+        );
+    background:
+      -o-radial-gradient(
         center,
         1em circle,
         rgb(236, 236, 236) 50%,
         transparent 51%
       ),
-      -o-radial-gradient(center, 1.25em circle, var(--bb8-bg) 50%, transparent
-            51%),
-      -o-linear-gradient(right, transparent 42%, var(--accent) 42% 58%, transparent
-            58%),
-      -o-linear-gradient(var(--bb8-bg) 42%, var(--accent) 42% 58%, var(--bb8-bg)
-            58%);
-    background: radial-gradient(
+      -o-radial-gradient(
+          center,
+          1.25em circle,
+          var(--bb8-bg) 50%,
+          transparent 51%
+        ),
+      -o-linear-gradient(
+          right,
+          transparent 42%,
+          var(--accent) 42% 58%,
+          transparent 58%
+        ),
+      -o-linear-gradient(
+          var(--bb8-bg) 42%,
+          var(--accent) 42% 58%,
+          var(--bb8-bg) 58%
+        );
+    background:
+      radial-gradient(
         1em circle at center,
         rgb(236, 236, 236) 50%,
         transparent 51%
@@ -537,9 +668,24 @@ const StyledWrapper = styled.div`
         var(--bb8-bg) 50%,
         transparent 51%
       ),
-      -webkit-gradient(linear, right top, left top, color-stop(42%, transparent), color-stop(42%, var(--accent)), color-stop(58%, transparent)),
-      -webkit-gradient(linear, left top, left bottom, color-stop(42%, var(--bb8-bg)), color-stop(42%, var(--accent)), color-stop(58%, var(--bb8-bg)));
-    background: radial-gradient(
+      -webkit-gradient(
+          linear,
+          right top,
+          left top,
+          color-stop(42%, transparent),
+          color-stop(42%, var(--accent)),
+          color-stop(58%, transparent)
+        ),
+      -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(42%, var(--bb8-bg)),
+          color-stop(42%, var(--accent)),
+          color-stop(58%, var(--bb8-bg))
+        );
+    background:
+      radial-gradient(
         1em circle at center,
         rgb(236, 236, 236) 50%,
         transparent 51%
@@ -692,8 +838,12 @@ const StyledWrapper = styled.div`
     left: 0.938em;
     width: 1.875em;
     height: 1.875em;
-    -webkit-box-shadow: 0 0 0.188em #ffffff52, 0 0 0.188em #6e8ea24b;
-    box-shadow: 0 0 0.188em #ffffff52, 0 0 0.188em #6e8ea24b;
+    -webkit-box-shadow:
+      0 0 0.188em #ffffff52,
+      0 0 0.188em #6e8ea24b;
+    box-shadow:
+      0 0 0.188em #ffffff52,
+      0 0 0.188em #6e8ea24b;
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
     transition: var(--transition);
@@ -727,8 +877,12 @@ const StyledWrapper = styled.div`
     left: 3.438em;
     width: 0.625em;
     height: 0.625em;
-    -webkit-box-shadow: 0 0 0.125em #ffffff52, 0 0 0.125em #6e8ea24b;
-    box-shadow: 0 0 0.125em #ffffff52, 0 0 0.125em #6e8ea24b;
+    -webkit-box-shadow:
+      0 0 0.125em #ffffff52,
+      0 0 0.125em #6e8ea24b;
+    box-shadow:
+      0 0 0.125em #ffffff52,
+      0 0 0.125em #6e8ea24b;
     -webkit-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
@@ -738,8 +892,12 @@ const StyledWrapper = styled.div`
     left: 4.375em;
     width: 0.5em;
     height: 0.5em;
-    -webkit-box-shadow: 0 0 0.125em #ffffff52, 0 0 0.125em #6e8ea24b;
-    box-shadow: 0 0 0.125em #ffffff52, 0 0 0.125em #6e8ea24b;
+    -webkit-box-shadow:
+      0 0 0.125em #ffffff52,
+      0 0 0.125em #6e8ea24b;
+    box-shadow:
+      0 0 0.125em #ffffff52,
+      0 0 0.125em #6e8ea24b;
     -webkit-transition: 0.8s;
     -o-transition: 0.8s;
     transition: 0.8s;
@@ -776,8 +934,12 @@ const StyledWrapper = styled.div`
     background: linear-gradient(#e6ac5c, #d75449);
     right: 1.25em;
     top: 2.188em;
-    -webkit-box-shadow: 0 0 0.438em #e6ad5c3d, 0 0 0.438em #d755494f;
-    box-shadow: 0 0 0.438em #e6ad5c3d, 0 0 0.438em #d755494f;
+    -webkit-box-shadow:
+      0 0 0.438em #e6ad5c3d,
+      0 0 0.438em #d755494f;
+    box-shadow:
+      0 0 0.438em #e6ad5c3d,
+      0 0 0.438em #d755494f;
     -webkit-transition: 0.7s;
     -o-transition: 0.7s;
     transition: 0.7s;
@@ -797,10 +959,20 @@ const StyledWrapper = styled.div`
 
   .bb8-toggle__star:nth-child(1) {
     left: 3.75em;
-    -webkit-box-shadow: 1.25em 0.938em, -1.25em 2.5em, 0 1.25em, 1.875em 0.625em,
-      -3.125em 1.875em, 1.25em 2.813em;
-    box-shadow: 1.25em 0.938em, -1.25em 2.5em, 0 1.25em, 1.875em 0.625em,
-      -3.125em 1.875em, 1.25em 2.813em;
+    -webkit-box-shadow:
+      1.25em 0.938em,
+      -1.25em 2.5em,
+      0 1.25em,
+      1.875em 0.625em,
+      -3.125em 1.875em,
+      1.25em 2.813em;
+    box-shadow:
+      1.25em 0.938em,
+      -1.25em 2.5em,
+      0 1.25em,
+      1.875em 0.625em,
+      -3.125em 1.875em,
+      1.25em 2.813em;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
@@ -808,10 +980,20 @@ const StyledWrapper = styled.div`
 
   .bb8-toggle__star:nth-child(2) {
     left: 4.688em;
-    -webkit-box-shadow: 0.625em 0, 0 0.625em, -0.625em -0.625em, 0.625em 0.938em,
-      -3.125em 1.25em, 1.25em -1.563em;
-    box-shadow: 0.625em 0, 0 0.625em, -0.625em -0.625em, 0.625em 0.938em,
-      -3.125em 1.25em, 1.25em -1.563em;
+    -webkit-box-shadow:
+      0.625em 0,
+      0 0.625em,
+      -0.625em -0.625em,
+      0.625em 0.938em,
+      -3.125em 1.25em,
+      1.25em -1.563em;
+    box-shadow:
+      0.625em 0,
+      0 0.625em,
+      -0.625em -0.625em,
+      0.625em 0.938em,
+      -3.125em 1.25em,
+      1.25em -1.563em;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -819,10 +1001,22 @@ const StyledWrapper = styled.div`
 
   .bb8-toggle__star:nth-child(3) {
     left: 5.313em;
-    -webkit-box-shadow: -0.625em -0.625em, -2.188em 1.25em, -2.188em 0,
-      -3.75em -0.625em, -3.125em -0.625em, -2.5em -0.313em, 0.75em -0.625em;
-    box-shadow: -0.625em -0.625em, -2.188em 1.25em, -2.188em 0, -3.75em -0.625em,
-      -3.125em -0.625em, -2.5em -0.313em, 0.75em -0.625em;
+    -webkit-box-shadow:
+      -0.625em -0.625em,
+      -2.188em 1.25em,
+      -2.188em 0,
+      -3.75em -0.625em,
+      -3.125em -0.625em,
+      -2.5em -0.313em,
+      0.75em -0.625em;
+    box-shadow:
+      -0.625em -0.625em,
+      -2.188em 1.25em,
+      -2.188em 0,
+      -3.75em -0.625em,
+      -3.125em -0.625em,
+      -2.5em -0.313em,
+      0.75em -0.625em;
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
     transition: var(--transition);

@@ -1,0 +1,1 @@
+cd sullivan-portfolio && npx lint-staged
