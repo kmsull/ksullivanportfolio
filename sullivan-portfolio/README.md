@@ -20,6 +20,54 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Development Tools
+
+This project uses several development tools to ensure code quality and consistency:
+
+### Code Formatting
+
+- **Prettier** - Automatic code formatting
+  - Run `npm run format` to format all files
+  - Run `npm run format:check` to check formatting without changes
+  - VS Code: Format on save is enabled (see `.vscode/settings.json`)
+
+### Code Quality
+
+- **ESLint** - Linting and code quality checks
+  - Run `npm run lint` to check for issues
+  - Run `npm run lint:fix` to auto-fix issues
+  - Integrated with Prettier to avoid conflicts
+
+- **TypeScript** - Type checking
+  - Run `npm run type-check` to check types without building
+
+### Pre-commit Hooks
+
+This project uses Husky and lint-staged to automatically check code before commits:
+
+- **Pre-commit**: Runs Prettier and ESLint on staged files
+- **Commit-msg**: Validates commit messages follow conventional commit format
+
+Example commit message formats:
+
+- `feat: add new feature`
+- `fix: resolve bug in component`
+- `docs: update README`
+- `style: format code`
+- `refactor: restructure component`
+- `test: add unit tests`
+- `chore: update dependencies`
+
+### Pre-build Checks
+
+Before building for production, run all checks:
+
+```bash
+npm run pre-build
+```
+
+This runs formatting check, linting, and type checking in sequence.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
