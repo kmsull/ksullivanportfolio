@@ -21,12 +21,18 @@ export default function MyInfoCard() {
         <h2>Kenneth Sullivan</h2>
       </div>
 
-      <div className="text-center text-gray-900 dark:text-white text-md px-4 lg:px-0">
-        <p>
+      <div className="text-center text-gray-900 dark:text-white text-md px-4 lg:px-0 max-w-md">
+        <p className="mb-2">
           Computer Science graduate from the University of Rhode Island.
-          Passionate developer focused on innovative solutions and continuous
-          learning. Dedicated to mastering new technologies and taking on
-          complex challenges.
+          Passionate full-stack developer with expertise in web development,
+          automation, and game development. Experienced in building scalable
+          applications using modern frameworks and technologies.
+        </p>
+        <p className="text-sm mt-3">
+          <strong>📧 Email:</strong> kenneth_sullivan@uri.edu
+        </p>
+        <p className="text-sm">
+          <strong>📍 Location:</strong> Rhode Island, USA
         </p>
       </div>
     </div>
