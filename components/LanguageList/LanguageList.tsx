@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LanguageList() {
   return (
-    <div className="w-[100%] h-[50%] bg-gray-800 rounded-lg flex flex-col justify-center items-center text-white border-4 border-gray-400">
+    <div className="w-full h-auto lg:h-[50%] bg-gray-800 rounded-lg flex flex-col justify-center items-center text-white border-4 border-gray-400 p-4 lg:p-0">
       <div className="flex flex-col justify-center">
         <h1 className="mb-4">Languages/Skills:</h1>
         <ul className="list-disc">
