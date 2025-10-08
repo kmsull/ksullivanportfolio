@@ -14,7 +14,7 @@ import React from "react";
  * <InterestsList />
  * ```
  */
-export default function PasssionList() {
+export default function PassionList() {
   return (
     <div className="w-[100%] h-[50%] bg-gray-800 rounded-lg flex flex-col justify-center items-center text-white border-4 border-gray-400">
       <div className="flex flex-col justify-center">
