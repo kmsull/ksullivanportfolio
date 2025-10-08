@@ -8,16 +8,16 @@ import { ThemeProvider } from "next-themes";
 export default function Home() {
   return (
     <ThemeProvider attribute="class">
-      <div className=" h-screen">
+      <div className="h-screen">
         <HeaderInfo />
-        <div className=" flex flex-row">
-          <div className="w-[20%] border-2 border-red-100">
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full lg:w-[20%] border-2 border-red-100">
             <InterestsList />
           </div>
-          <div className="border-2 border-red-100 h-screen flex justify-center">
+          <div className="w-full lg:flex-1 border-2 border-red-100 flex justify-center">
             <MyInfoCard />
           </div>
-          <div className="w-[20%] flex justify-center border-2 border-red-100">
+          <div className="w-full lg:w-[20%] flex justify-center border-2 border-red-100">
             <LanguageList />
           </div>
         </div>
