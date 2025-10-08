@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function MyInfoCard() {
   return (
-    <div className="w-full lg:w-[50%] h-auto lg:h-[50%] dark:bg-gray-800 rounded-2xl flex flex-col justify-center items-center text-white border-4 border-gray-400 p-4 lg:p-0">
+    <div className="w-full lg:w-[50%] h-auto lg:h-[50%] bg-gray-100 dark:bg-gray-800 rounded-2xl flex flex-col justify-center items-center text-gray-900 dark:text-white border-4 border-gray-400 p-4 lg:p-0">
       <div className=" flex justify-center items-center">
         <Image
           src={profilePicture}
@@ -17,11 +17,11 @@ export default function MyInfoCard() {
         />
       </div>
 
-      <div className=" text-center mt-[1%] mb-[1%] text-lg font-bold text-white ">
+      <div className=" text-center mt-[1%] mb-[1%] text-lg font-bold text-gray-900 dark:text-white ">
         <h2>Kenneth Sullivan</h2>
       </div>
 
-      <div className="text-center text-white text-md px-4 lg:px-0">
+      <div className="text-center text-gray-900 dark:text-white text-md px-4 lg:px-0">
         <p>
           Computer Science graduate from the University of Rhode Island.
           Passionate developer focused on innovative solutions and continuous
